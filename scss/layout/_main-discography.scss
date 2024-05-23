@@ -1,0 +1,27 @@
+.discography{
+    div{
+        h1{
+            text-align: center;
+            margin: 50px;
+            color: #003C43;
+        }
+    }
+}
+.albumYear{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    color: #003C43;
+}
+.albumSpotify{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}

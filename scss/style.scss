@@ -1,0 +1,30 @@
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/body";
+@import "./layout/main-index";
+@import "./layout/main-discography";
+@import "./layout/main-members";
+@import "./layout/main-videos";
+@import "./layout/main-news";
+
+@media (max-width:560px){
+    header{
+        flex-direction: column;
+        height: 220px;
+    }
+    header nav ul{
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width:430px){
+    footer{
+        flex-direction: column;
+        height: 250px;
+    }
+    .socials{
+        flex-direction: column;
+    }
+}

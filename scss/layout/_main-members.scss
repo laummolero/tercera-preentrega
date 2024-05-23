@@ -1,0 +1,25 @@
+.members{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    .profiles h2{
+        color: #135D66;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .profiles p{
+        width: 12.5rem;
+        height: 12.5rem;
+        color: #003C43;
+    }
+    .profiles img{
+        width: 200px;
+        height: auto;
+    }
+}
+.day6members h1{
+    text-align: center;
+    margin: 50px;
+    color: #003C43;
+}
